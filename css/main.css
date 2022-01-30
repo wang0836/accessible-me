@@ -12,9 +12,11 @@ h4,
 h5,
 h6 {
   font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
+  font-weight:bold;
 }
 p{
   color: #666;
+  font-weight: lighter;
 }
 .container {
   max-width: 1080px;
@@ -27,10 +29,10 @@ p{
     background-image: url("https://placekitten.com/1200/900");
     background-size: cover;
     background-position: center;
-    color: cornsilk;
+    color: cornsilk ;
     font-size: 100px;
     font-weight: lighter;
-    text-shadow: darkblue 20%;
+    text-shadow: darkblue 20%; 
 }
 
 /* img {
@@ -76,6 +78,11 @@ nav ul li a:hover{
   
   color: #0077ff;
   background-color: rgb(215, 250, 238);
+}
+
+main ul li{
+  color: #666;
+  font-weight: lighter;
 }
 
 form input,
